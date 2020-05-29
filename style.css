@@ -1,0 +1,26 @@
+.button {
+    font-size: 20px;
+    background-color: #555555;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid black;
+    float: left;
+    display: inline-block;
+}
+
+#calculator {
+    justify-content: center;
+    border: 1px solid black;
+    width: 640px;
+    height: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    text-align: right;
+
+}
+
+#display {
+    font-size: 60px;
+    border-bottom: 1px solid black;
+}
