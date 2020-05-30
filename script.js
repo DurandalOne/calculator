@@ -26,12 +26,12 @@ buttonPress.addEventListener("click", (event) => {
     const buttonClass = event.target.class;
     console.dir(buttonValue);
 
-    if(buttonValue == "clear") {
+    if (buttonValue == "clear") {
         innerDisplay.innerHTML = 0;
         a = "";
         b = "";
         operator = "";
-    }
+    }   
 
     if ((+buttonValue >= 0) && (+buttonValue <= 9)) {
         if(innerDisplay.innerHTML == 0) {
