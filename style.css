@@ -6,7 +6,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
-    background-color: grey
+    background-color: #808080;
+    outline: none;
 }
 
 .button:hover {
@@ -21,8 +22,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    row-gap: 5px;
-    column-gap: 5px;
+    grid-gap: 5px;
+    padding: 3px;
 
 }
 
