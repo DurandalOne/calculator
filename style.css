@@ -1,58 +1,63 @@
 .button {
-    font-size: 40px;
-    background-color: #555555;
-    border: 1px solid black;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-    background-color: #808080;
-    outline: none;
+  font-size: 40px;
+  background-color: #555555;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: #808080;
+  outline: none;
 }
 
 .button:hover {
-    background-color: darkgray;
+  background-color: darkgray;
 }
 
 .button:active {
-    transform: translateY(3px);
+  transform: translateY(3px);
 }
 
 .buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-gap: 5px;
-    padding: 3px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding: 3px;
+}
 
+.function {
+  background-color: rgb(103, 113, 122);
 }
 
 #calculator {
-    justify-content: center;
-    border: 3px solid black;
-    width: 800px;
-    height: auto;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
-    background-color: #555555;
+  justify-content: center;
+  border: 3px solid black;
+  width: 800px;
+  height: auto;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  background-color: #555555;
 }
 
-
 #display {
-    font-size: 60px;
-    border-bottom: 3px solid black;
-    text-align: right;
-    width: 1fr;
-    background-color: whitesmoke;
-    padding-right: 10px;
+  font-size: 80px;
+  border-bottom: 3px solid black;
+  text-align: right;
+  width: 1fr;
+  background-color: whitesmoke;
+  padding-right: 10px;
+  overflow: hidden;
 }
 
 #clear {
-    position: relative;
+  position: relative;
 }
 
 body {
-    background-color: lightslategray;
+  background-color: lightslategray;
+  font-family: "Roboto", sans-serif;
 }
