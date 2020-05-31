@@ -58,7 +58,9 @@
 body {
   background-color: lightslategray;
   font-family: "Roboto", sans-serif;
-  max-width: 800px;
+  width: 800px;
+  max-width: 100vh;
+  max-height: 100vh;
   margin-left: auto;
   margin-right: auto;
   
