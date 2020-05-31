@@ -33,12 +33,10 @@
 #calculator {
   justify-content: center;
   border: 3px solid black;
-  width: 800px;
+  width: auto;
   height: auto;
   text-align: center;
   margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
   object-fit: contain;
   background-color: #555555;
 }
@@ -60,4 +58,8 @@
 body {
   background-color: lightslategray;
   font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
