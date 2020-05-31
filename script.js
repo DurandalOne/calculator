@@ -5,6 +5,7 @@ let a = "";
 let b = "";
 let operator = "";
 
+// extra functionality to muliply and divide so numbers are rounded to 2dp
 function operate() {
   switch (operator) {
     case "add":
